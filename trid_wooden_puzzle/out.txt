@@ -1,0 +1,69 @@
+8 pieces
+STarTing::
+---!!
+Winning!
+BoardState:
+ooooo
+ooooo
+ooxoo
+ooooo
+ooooo
+--~~~--
+unwinding solution:
+uw [7]
+     
+oo   
+     
+o    
+     
+Direction: rotFlip, offset: 0
+uw [6]
+     
+    o
+oo   
+     
+     
+Direction: flip, offset: 1
+uw [5]
+     
+     
+     
+ o o 
+o    
+Direction: flip, offset: 3
+uw [4]
+o   o
+  o  
+     
+     
+     
+Direction: plain, offset: 0
+uw [3]
+   o 
+     
+    o
+     
+    o
+Direction: rotFlip, offset: 3
+uw [2]
+  o  
+   o 
+     
+     
+   o 
+Direction: rotFlip, offset: 2
+uw [1]
+ o   
+     
+     
+     
+ oo  
+Direction: rot, offset: 1
+uw [0]
+     
+     
+   o 
+  o o
+     
+Direction: plain, offset: 2
+Solved!
